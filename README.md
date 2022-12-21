@@ -16,3 +16,4 @@ For project setup VSCode is recommended.
 This shall enable Pico to communicate in WLAN (as do_connect()).
 Use ussl.socket to upload a file to a dedicated ftp-like Server - configured in secrets.py.
 Inspiration for server is: 
+https://github.com/justEhmadSaeed/Python-Sockets-File-Transfer
