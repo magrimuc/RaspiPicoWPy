@@ -1,0 +1,5 @@
+Microcontroller Raspberry Pi Pico W (2022).
+Firmware: https://micropython.org/download/rp2-pico-w/rp2-pico-w-latest.uf2
+
+Several Python dedicated setup issues - not provided on my W10 PC
+thonny I guess
