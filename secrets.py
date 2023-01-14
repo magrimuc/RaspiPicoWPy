@@ -1,9 +1,9 @@
 secrets = {
-    'ssid': 'GRITZ!Box 7490',
-    'password': '32110145812844357672',
+    'ssid': '',
+    'password': '',
 }
 secretsmgrillo = {
-    'url': 'mgrillo.de',
-    'ben': 'root',
-    'password': '28753315845',
+    'url': '.de',
+    'ben': '',
+    'password': '',
 }
