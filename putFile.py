@@ -10,7 +10,8 @@ def putFile():
     host = 'mgrillo.de'
 
     # Connect socket to the host and port
-    sock.connect((host, port))
+    hopo = socket.getaddrinfo('mgrillo.de',8800)[0][-1]
+    sock.connect(hopo)
     print('Connection Established.')
     # Send a greeting to the server
     # sock.send('A message from the client'.encode())
@@ -28,17 +29,3 @@ def putFile():
     file.close()
     sock.close()
     print('Connection Closed.')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
