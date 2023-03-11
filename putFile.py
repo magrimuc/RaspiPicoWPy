@@ -17,11 +17,12 @@ def putFile():
     # sock.send('A message from the client'.encode())
 
     # Write File in binary
-    file = open('server-file.txt', 'rb')
+    #file = open('server-file.txt', 'rb')
+    file = open('asd.jpg', 'rb')
     line = file.read(1024)
     # Keep sending data to the client
     while(line):
-        sock.send(line)
+        sock.write(line)
         line = file.read(1024)
 
     print('File has been sent successfully.')
